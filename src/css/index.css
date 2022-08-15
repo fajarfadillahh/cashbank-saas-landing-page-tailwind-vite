@@ -77,3 +77,37 @@
 .experience__content-tag {
   @apply text-[15px] text-grey font-medium group-hover:text-white;
 }
+
+/* ===== TESTIMONIAL SECTION ===== */
+.testimonial__content {
+  @apply grid gap-8 p-8 bg-white rounded-xl transition-all duration-400;
+}
+.testimonial__content-text {
+  @apply text-[15px] text-grey leading-text;
+}
+.testimonial__content-profile {
+  @apply flex items-center gap-4;
+}
+.testimonial__content-img {
+  @apply w-16;
+}
+.testimonial__content-name {
+  @apply text-[20px] text-black font-bold mb-2;
+}
+.testimonial__content-profession {
+  @apply text-[15px] text-grey font-medium;
+}
+/* swiper active */
+.testimonial__content.swiper-slide-active {
+  @apply shadow-[0_16px_24px_rgba(0,0,0,0.1)];
+}
+/* swiper pagination */
+.testimonial__container .swiper-pagination {
+  position: initial;
+}
+.testimonial__container .swiper-pagination-bullet {
+  @apply w-2 h-2 bg-[rgba(0,0,0,0.8)] transition-all duration-400;
+}
+.testimonial__container .swiper-pagination-bullet-active {
+  @apply w-8 h-2 bg-gradient-to-tr from-blue-dark to-blue-light rounded-full;
+}
