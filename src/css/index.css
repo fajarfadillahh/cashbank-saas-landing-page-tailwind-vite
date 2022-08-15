@@ -46,3 +46,20 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== FEATURES SECTION ===== */
+.features__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(300px,0.8fr))] justify-center gap-8;
+}
+.features__content {
+  @apply grid gap-8 text-center;
+}
+.features__content-img {
+  @apply justify-self-center;
+}
+.features__content-title {
+  @apply text-[20px] text-black font-bold capitalize leading-title mb-2;
+}
+.features__content-text {
+  @apply text-[15px] text-grey leading-text;
+}
