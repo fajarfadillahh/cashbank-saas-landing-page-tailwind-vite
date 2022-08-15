@@ -63,3 +63,17 @@
 .features__content-text {
   @apply text-[15px] text-grey leading-text;
 }
+
+/* ===== EXPERIENCE SECTION ===== */
+.experience__group {
+  @apply grid grid-cols-[repeat(3,max-content)] justify-center items-center gap-4;
+}
+.experience__content {
+  @apply text-center py-4 px-2 bg-white rounded-xl transition-all duration-400 hover:bg-gradient-to-tr hover:from-blue-dark hover:to-blue-light;
+}
+.experience__content-number {
+  @apply text-[20px] text-black font-bold mb-2 group-hover:text-white;
+}
+.experience__content-tag {
+  @apply text-[15px] text-grey font-medium group-hover:text-white;
+}
