@@ -209,3 +209,82 @@
     @apply hidden;
   }
 }
+
+/* width 968px */
+@screen lg {
+  /* header section */
+  .header__container {
+    @apply relative;
+  }
+  .header__list {
+    @apply absolute left-[50%] translate-x-[-50%] gap-8;
+  }
+
+  /* home section */
+  .home__container {
+    @apply grid-cols-2 items-center;
+  }
+  .home__data,
+  .home__img {
+    @apply w-full;
+  }
+  .home__data {
+    @apply text-left justify-self-start;
+  }
+  .home__buttons {
+    @apply justify-start;
+  }
+
+  /* partner section */
+  .partner__group {
+    @apply grid-cols-[repeat(6,max-content)];
+  }
+
+  /* experience section */
+  .experience__container {
+    @apply grid-cols-2 items-center;
+  }
+  .experience__data {
+    @apply text-left justify-self-start;
+  }
+  .experience__group {
+    @apply justify-start;
+  }
+  .experience__content {
+    @apply py-6 px-4;
+  }
+  .experience__content-number {
+    @apply text-[24px];
+  }
+  .experience__data,
+  .experience__img {
+    @apply w-full;
+  }
+
+  /* about section */
+  .about__content {
+    @apply grid-cols-2 items-center;
+  }
+  .about__content-data {
+    @apply w-full text-left justify-self-start;
+  }
+  .about__content-img {
+    @apply w-full;
+  }
+  .about__content:nth-child(2) .about__content-data {
+    @apply order-2;
+  }
+
+  /* support section */
+  .support__data {
+    @apply w-[800px];
+  }
+  .support__img {
+    @apply w-full;
+  }
+
+  /* footer section */
+  .footer__group {
+    @apply grid-cols-3;
+  }
+}
