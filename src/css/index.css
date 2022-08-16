@@ -350,3 +350,8 @@
     @apply justify-self-center;
   }
 }
+
+/* ===== ::SELECTION ===== */
+::selection {
+  @apply bg-blue-dark bg-opacity-80 text-white;
+}
