@@ -156,3 +156,40 @@
     @apply w-[400px];
   }
 }
+
+/* width 640px */
+@screen sm {
+  .section-title {
+    @apply text-[36px];
+  }
+
+  .home__data,
+  .experience__data,
+  .about__content-data,
+  .support__data {
+    @apply w-[500px];
+  }
+
+  .home__img,
+  .experience__img,
+  .about__content-img,
+  .support__img {
+    @apply w-[500px];
+  }
+
+  .home__buttons {
+    @apply flex-row justify-center;
+  }
+
+  .partner__group {
+    @apply grid-cols-[repeat(3,max-content)];
+  }
+
+  .about__content-button {
+    @apply inline-flex;
+  }
+
+  .footer__group {
+    @apply grid grid-cols-2;
+  }
+}
