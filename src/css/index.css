@@ -132,3 +132,8 @@
 .footer__content-icon {
   @apply w-11 h-11 inline-flex justify-center items-center p-4 ring-[1.5px] ring-[rgba(255,255,255,0.5)] rounded-[50%] text-[1.5rem] text-white transition-all duration-400 hover:bg-black hover:ring-black;
 }
+
+/* ===== SCROLLUP SECTION ===== */
+.scrollup.scroll-action {
+  @apply bottom-12;
+}
